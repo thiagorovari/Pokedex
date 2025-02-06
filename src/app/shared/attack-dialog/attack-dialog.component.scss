@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    height: 160px;
+    text-align: center;
+    background-color:white;
+    border-radius: 4px;
+    color: rgb(46, 47, 45);
+    font-size: 20px;
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b41212;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.dialog-title {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #3c04e3;
+}
+
+.dialog-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #6c75fd;
+    cursor: pointer;
+}
+
+.dialog-content {
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #492057;
+}
+
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+
+}
+
